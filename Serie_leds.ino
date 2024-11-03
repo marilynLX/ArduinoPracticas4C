@@ -18,7 +18,7 @@ pinMode(rojo2, OUTPUT);
 void loop() {
   // put your main code here, to run repeatedly:
   //se indica que el led estara prendido durante medio segundo y despues se apagara durante medio segundo
-  //susecibamente pasando por todos los leds
+  //sucesivamente pasando por todos los leds
 digitalWrite(rojo2, HIGH);
 delay(500);
 digitalWrite(rojo2, LOW);
